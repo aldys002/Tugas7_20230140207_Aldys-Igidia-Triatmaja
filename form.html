@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Diri</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section class="form-container">
+        <h2>Formulir Data Diri</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Formulir Data Diri</legend>
+
+                <p>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="tgl">Tanggal Lahir:</label><br>
+                    <input type="date" id="tgl" name="tgl">
+                </p>
+
+                <p>
+                    <label for="gender">Jenis Kelamin:</label><br>
+                    <input type="radio" id="laki" name="gender" value="Laki-laki">
+                    <label for="laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </p>
+
+                <p>
+                    <label for="alamat">Alamat:</label><br>
+                    <textarea id="alamat" name="alamat" rows="3" cols="30"></textarea>
+                </p>
+
+                <p>
+                    <label for="hobi">Hobi:</label><br>
+                    <input type="checkbox" name="hobi" value="Membaca"> Membaca
+                    <input type="checkbox" name="hobi" value="Menulis"> Menulis
+                    <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+                </p>
+
+                <p>
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </p>
+            </fieldset>
+        </form>
+
+        <div class="btn-container">
+            <a href="index.html" class="button">Kembali ke Home</a>
+        </div>
+    </section>
+</body>
+</html>
